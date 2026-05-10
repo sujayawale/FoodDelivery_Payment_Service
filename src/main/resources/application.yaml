@@ -44,4 +44,6 @@ server:
 
 logging:
   level:
-    org.hibernate: warn
+    org.apache.kafka: WARN
+    org.springframework.kafka: WARN
+    org.hibernate.SQL: DEBUG
